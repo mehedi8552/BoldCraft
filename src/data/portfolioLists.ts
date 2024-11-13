@@ -1,3 +1,10 @@
+import ImageOne from "../assets/image/portfolio/portfolio-1.jpg";
+import ImageTwo from "../assets/image/portfolio/portfolio-2.jpg";
+import ImageThree from "../assets/image/portfolio/portfolio-3.jpg";
+import ImageFour from "../assets/image/portfolio/portfolio-4.jpg";
+import ImageFive from "../assets/image/portfolio/portfolio-5.jpg";
+import ImageSix from "../assets/image/portfolio/portfolio-6.jpg";
+
 export interface PortfolioItem {
   id: number;
   category: string;
@@ -14,7 +21,7 @@ export const portfolioItemsOne: PortfolioItem[] = [
     id: 1,
     category: "Web Design",
     title: "Modern Web Design Portfolio",
-    image: "/src/assets/image/portfolio/portfolio-1.jpg",
+    image: ImageOne,
     buttonText: "View Project",
     date: "March 15, 2024",
     creator: "John Doe",
@@ -24,7 +31,7 @@ export const portfolioItemsOne: PortfolioItem[] = [
     id: 2,
     category: "Development",
     title: "Scalable React Applications",
-    image: "/src/assets/image/portfolio/portfolio-2.jpg",
+    image: ImageTwo,
     buttonText: "View Project",
     date: "March 14, 2024",
     creator: "Jane Smith",
@@ -34,7 +41,7 @@ export const portfolioItemsOne: PortfolioItem[] = [
     id: 3,
     category: "UI/UX Design",
     title: "Intuitive User Interfaces",
-    image: "/src/assets/image/portfolio/portfolio-3.jpg",
+    image: ImageThree,
     buttonText: "View Project",
     date: "March 13, 2024",
     creator: "Mike Johnson",
@@ -44,7 +51,7 @@ export const portfolioItemsOne: PortfolioItem[] = [
     id: 4,
     category: "Technology",
     title: "AI in Web Development",
-    image: "/src/assets/image/portfolio/portfolio-4.jpg",
+    image: ImageFour,
     buttonText: "View Project",
     date: "March 12, 2024",
     creator: "Sarah Wilson",
@@ -54,7 +61,7 @@ export const portfolioItemsOne: PortfolioItem[] = [
     id: 5,
     category: "Marketing",
     title: "Digital Marketing Portfolio",
-    image: "/src/assets/image/portfolio/portfolio-5.jpg",
+    image: ImageFive,
     buttonText: "View Project",
     date: "March 11, 2024",
     creator: "Tom Brown",
@@ -64,7 +71,7 @@ export const portfolioItemsOne: PortfolioItem[] = [
     id: 6,
     category: "Business",
     title: "Startup Business Strategies",
-    image: "/src/assets/image/portfolio/portfolio-6.jpg",
+    image: ImageSix,
     buttonText: "View Project",
     date: "March 10, 2024",
     creator: "Emily Davis",
@@ -76,7 +83,7 @@ export const portfolioItemsTow: PortfolioItem[] = [
     id: 1,
     category: "Web Design",
     title: "Modern Web Design Portfolio",
-    image: "/src/assets/image/portfolio/portfolio-1.jpg",
+    image: ImageOne,
     buttonText: "View Project",
     date: "March 15, 2024",
     creator: "John Doe",
@@ -86,7 +93,7 @@ export const portfolioItemsTow: PortfolioItem[] = [
     id: 2,
     category: "Development",
     title: "Scalable React Applications",
-    image: "/src/assets/image/portfolio/portfolio-2.jpg",
+    image: ImageTwo,
     buttonText: "View Project",
     date: "March 14, 2024",
     creator: "Jane Smith",
@@ -96,7 +103,7 @@ export const portfolioItemsTow: PortfolioItem[] = [
     id: 3,
     category: "UI/UX Design",
     title: "Intuitive User Interfaces",
-    image: "/src/assets/image/portfolio/portfolio-3.jpg",
+    image: ImageThree,
     buttonText: "View Project",
     date: "March 13, 2024",
     creator: "Mike Johnson",
@@ -106,7 +113,7 @@ export const portfolioItemsTow: PortfolioItem[] = [
     id: 4,
     category: "Technology",
     title: "AI in Web Development",
-    image: "/src/assets/image/portfolio/portfolio-4.jpg",
+    image: ImageFour,
     buttonText: "View Project",
     date: "March 12, 2024",
     creator: "Sarah Wilson",
@@ -116,7 +123,7 @@ export const portfolioItemsTow: PortfolioItem[] = [
     id: 5,
     category: "Marketing",
     title: "Digital Marketing Portfolio",
-    image: "/src/assets/image/portfolio/portfolio-5.jpg",
+    image: ImageFive,
     buttonText: "View Project",
     date: "March 11, 2024",
     creator: "Tom Brown",
@@ -126,7 +133,7 @@ export const portfolioItemsTow: PortfolioItem[] = [
     id: 6,
     category: "Business",
     title: "Startup Business Strategies",
-    image: "/src/assets/image/portfolio/portfolio-6.jpg",
+    image: ImageSix,
     buttonText: "View Project",
     date: "March 10, 2024",
     creator: "Emily Davis",

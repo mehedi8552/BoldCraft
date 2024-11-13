@@ -1,3 +1,5 @@
+import ImageOne from "../assets/image/blog/blog-details-01.jpg"
+
 export const blogDetails = {
   id: 1,
   title: "Top Digital Marketing Trends to Boost Your Business",
@@ -6,7 +8,7 @@ export const blogDetails = {
   comments: 15,
   likes: 100,
   videoUrl: "https://youtu.be/ULKHJgYBpp4?si=4A66tZgKJwBdjqCJ",
-  image: "/src/assets/image/blog/blog-details-01.jpg",
+  image: ImageOne,
   content: `
     <p class="dark:text-white/70">Staying on top of digital marketing trends is essential for any business looking to grow in today’s fast-paced environment. With the digital landscape continuously evolving, it's important to adapt and implement strategies that will keep your brand ahead. Here, we explore the latest trends in digital marketing that are proven to boost business growth.</p>
 
