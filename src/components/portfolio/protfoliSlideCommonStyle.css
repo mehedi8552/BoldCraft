@@ -1,0 +1,24 @@
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: -60px !important;
+}
+
+/* src/pages/portfolio/protfoliSlideCommonStyle.css */
+.portfolio-card {
+  transition: transform 0.3s ease;
+}
+
+.portfolio-card:hover {
+  transform: scale(1.05);
+}
+
+.mySwiper {
+  padding: 20px 0;
+  overflow: visible; /* Hide overflow to prevent scrollbar */
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: visible; /* Allow overflow for scaling */
+}

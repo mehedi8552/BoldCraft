@@ -1,0 +1,427 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
+
+/* Tailwind CSS Variables */
+@layer base {
+  :root {
+    --background: 22 17% 100%;
+    --foreground: 22 5% 10%;
+    --card: 22 17% 100%;
+    --card-foreground: 22 5% 15%;
+    --popover: 22 17% 100%;
+    --popover-foreground: 22 95% 10%;
+    --primary: 22 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 22 17% 90%;
+    --secondary-foreground: 0 0% 0%;
+    --muted: -16 17% 95%;
+    --muted-foreground: 22 5% 40%;
+    --accent: -16 17% 90%;
+    --accent-foreground: 22 5% 15%;
+    --destructive: 0 50% 50%;
+    --destructive-foreground: 22 5% 100%;
+    --border: 22 20% 82%;
+    --input: 22 20% 50%;
+    --ring: 22 100% 50%;
+    --radius: 0.75rem;
+  }
+  .dark {
+    --background: 220, 13%, 14%;
+    --foreground: 22 5% 100%;
+    --card: 22 17% 10%;
+    --card-foreground: 22 5% 100%;
+    --popover: 22 17% 5%;
+    --popover-foreground: 22 5% 100%;
+    --primary: 22 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 22 17% 20%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: -16 17% 25%;
+    --muted-foreground: 22 5% 65%;
+    --accent: -16 17% 25%;
+    --accent-foreground: 22 5% 95%;
+    --destructive: 0 50% 50%;
+    --destructive-foreground: 22 5% 100%;
+    --border: 22 20% 50%;
+    --input: 22 20% 50%;
+    --ring: 22 100% 50%;
+    --radius: 0.75rem;
+  }
+
+  @layer base {
+    * {
+      @apply border-border;
+    }
+    body {
+      @apply bg-background text-[#666666] text-font-primary Mulish-regular;
+    }
+    :root {
+      /* Font Sizes with Line Heights */
+      --font-size-small: 0.875rem; /* 14px */
+      --font-size-link: 1rem; /* 16px */
+      --font-size-card-title: 1.5rem; /* 24px */
+      --font-size-primary: 1.125rem; /* 18px */
+      --font-size-section-sub-title: 1.875rem; /* 30px */
+      --font-size-section-title: 3.75rem; /* 60px */
+      --font-size-hero-title: 7.81rem; /* 125px */
+
+      /* Line Heights */
+      --line-height-small: 1.25;
+      --line-height-normal: 1.5;
+      --line-height-relaxed: 1.75;
+      --line-height-loose: 2;
+
+      --border-radius-sm: 0.25rem; /* 4px */
+      --border-radius-md: 0.375rem; /* 6px */
+      --border-radius-lg: 0.5rem; /* 8px */
+    }
+  }
+  .custom-container {
+    @apply mx-auto px-[15px] xl:px-[25px]  sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1260px];
+  }
+
+  @media (max-width: 575px) {
+    .custom-container {
+      width: 450px;
+    }
+  }
+
+  @media (max-width: 479px) {
+    .custom-container {
+      width: 320px;
+    }
+  }
+
+  /* Font Families */
+
+  .Mulish-thin {
+    font-family: "Mulish", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .Mulish-extralight {
+    font-family: "Mulish", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  .Mulish-light {
+    font-family: "Mulish", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .Mulish-regular {
+    font-family: "Mulish", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .Mulish-medium {
+    font-family: "Mulish", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .Mulish-semibold {
+    font-family: "Mulish", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .Mulish-bold {
+    font-family: "Mulish", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .Mulish-extrabold {
+    font-family: "Mulish", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .Mulish-black {
+    font-family: "Mulish", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .Mulish-thin-italic {
+    font-family: "Mulish", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+
+  .Mulish-extralight-italic {
+    font-family: "Mulish", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+
+  .Mulish-light-italic {
+    font-family: "Mulish", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .Mulish-regular-italic {
+    font-family: "Mulish", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .Mulish-medium-italic {
+    font-family: "Mulish", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  .Mulish-semibold-italic {
+    font-family: "Mulish", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  .Mulish-bold-italic {
+    font-family: "Mulish", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .Mulish-extrabold-italic {
+    font-family: "Mulish", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+
+  .Mulish-black-italic {
+    font-family: "Mulish", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  /* Gradient Text */
+  .gradient-text {
+    background: linear-gradient(145deg, #f81f01, #ee076e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
+  .gradient-bg {
+    background: linear-gradient(145deg, #f81f01, #ee076e);
+  }
+
+  /* Gradient Hover */
+  .gradient-hover {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .gradient-hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(145deg, #f81f01, #ee076e);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+  }
+
+  .gradient-hover:hover::before {
+    opacity: 1;
+  }
+
+  .gradient-hover:hover {
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Footer Text */
+  .footer-text {
+    color: #999999;
+  }
+
+  /* Typography Classes */
+  .text-small {
+    font-size: var(--font-size-small);
+    line-height: var(--line-height-small);
+  }
+
+  .text-link {
+    font-size: var(--font-size-link);
+    line-height: var(--line-height-normal);
+  }
+
+  .text-card-title {
+    font-size: var(--font-size-card-title);
+    line-height: var(--line-height-normal);
+  }
+
+  .text-font-primary {
+    font-size: var(--font-size-primary);
+    line-height: var(--line-height-normal);
+  }
+
+  .text-section-subtitle {
+    font-size: var(--font-size-section-sub-title);
+    line-height: var(--line-height-relaxed);
+  }
+
+  .text-section-title {
+    font-size: var(--font-size-section-title);
+    line-height: 1.2;
+  }
+
+  .text-hero-title {
+    font-size: var(--font-size-hero-title);
+    line-height: 1.1;
+  }
+
+  @media only screen and (max-width: 575px) {
+    .text-hero-title {
+      font-size: 40px;
+      line-height: 50px;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .text-hero-title {
+      font-size: 50px;
+      line-height: 70px;
+      margin-bottom: 0;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .text-hero-title {
+      font-size: 70px;
+      line-height: 1; /* Adjust as needed */
+    }
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .text-hero-title {
+      font-size: 90px;
+      line-height: 1.3; /* Adjust as needed */
+    }
+  }
+
+  @media only screen and (min-width: 1200px) and (max-width: 1599px) {
+    .text-hero-title {
+      font-size: 100px;
+      line-height: 112px;
+    }
+  }
+
+  .agency-heading {
+    font-size: 148px;
+    line-height: 148px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px #ff5c00;
+  }
+
+  .home-service-number {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px #000000;
+    transition: all 0.3s ease;
+  }
+  .home-service-number:hover {
+    color: transparent;
+    -webkit-text-stroke: 1px #ff5c00;
+  }
+
+  @media (max-width: 768px) {
+    .agency-heading {
+      font-size: 74px; /* Adjust as needed */
+      line-height: 74px; /* Adjust as needed */
+    }
+  }
+
+  @media (max-width: 480px) {
+    .agency-heading {
+      font-size: 48px; /* Adjust as needed */
+      line-height: 48px; /* Adjust as needed */
+    }
+  }
+}
+
+/* Blog Content */
+.blog-content p {
+  margin: 1rem 0;
+}
+
+.swiper-pagination {
+  bottom: 1000px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.swiper-pagination-bullet {
+  background-color: #ccc;
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ff5c00;
+  transform: scale(1.2);
+}
+
+/* Custom styles for Swiper navigation buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ff5c00;
+}
+
+.swiper-pagination-bullet {
+  background-color: #ccc;
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ff5c00;
+  transform: scale(1.2);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Poppins, sans-serif;
+  line-height: 1.4074;
+  color: #1f1f25;
+}
