@@ -23,49 +23,49 @@ export function MainNavigationMenu() {
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-2">
-              <ListItem href="/" title="Creative Agency">
+              <ListItem to="/" title="Creative Agency">
                 Innovative solutions for creative projects.
               </ListItem>
-              <ListItem href="/" title="Creative One Page">
+              <ListItem to="/" title="Creative One Page">
                 Single-page design for creativity.
               </ListItem>
-              <ListItem href="/" title="Creative Portfolio">
+              <ListItem to="/" title="Creative Portfolio">
                 Showcase your creative work effectively.
               </ListItem>
-              <ListItem href="/" title="Personal Portfolio">
+              <ListItem to="/" title="Personal Portfolio">
                 Display personal achievements and skills.
               </ListItem>
-              <ListItem href="/" title="Portfolio One Page">
+              <ListItem to="/" title="Portfolio One Page">
                 Compact portfolio on one page.
               </ListItem>
-              <ListItem href="/" title="Portfolio One Page 02">
+              <ListItem to="/" title="Portfolio One Page 02">
                 Another version of single-page portfolio.
               </ListItem>
-              <ListItem href="/" title="Digital Agency">
+              <ListItem to="/" title="Digital Agency">
                 Digital solutions for modern businesses.
               </ListItem>
-              <ListItem href="/" title="Startup">
+              <ListItem to="/" title="Startup">
                 Launch your startup with ease.
               </ListItem>
-              <ListItem href="/" title="Paralax">
+              <ListItem to="/" title="Paralax">
                 Dynamic scrolling effects for engagement.
               </ListItem>
-              <ListItem href="/" title="Minimal Portfolio">
+              <ListItem to="/"  title="Minimal Portfolio">
                 Simple and clean portfolio design.
               </ListItem>
-              <ListItem href="/" title="Business">
+              <ListItem to="/" title="Business">
                 Professional solutions for your business.
               </ListItem>
-              <ListItem href="/" title="Home Particles">
+              <ListItem to="/" title="Home Particles">
                 Interactive particle effects for homepage.
               </ListItem>
-              <ListItem href="/" title="Studio Agency">
+              <ListItem to="/" title="Studio Agency">
                 Creative studio services and solutions.
               </ListItem>
-              <ListItem href="/" title="Designer Portfolio">
+              <ListItem to="/" title="Designer Portfolio">
                 Portfolio tailored for designers' needs.
               </ListItem>
-              <ListItem href="/" title="Interactive Agency">
+              <ListItem to="/" title="Interactive Agency">
                 Engaging interactive agency experiences.
               </ListItem>
             </ul>
@@ -77,10 +77,10 @@ export function MainNavigationMenu() {
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-2">
-              <ListItem href="/service" title="Service">
+              <ListItem to="/service" title="Service">
                 Overview of services offered.
               </ListItem>
-              <ListItem href="/service-details" title="Service Details">
+              <ListItem to="/service-details" title="Service Details">
                 Detailed information about a specific service.
               </ListItem>
             </ul>
@@ -99,25 +99,25 @@ export function MainNavigationMenu() {
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-2">
-              <ListItem href="/blog" title="Blog List">
+              <ListItem to="/blog" title="Blog List">
                 Overview of all blog posts.
               </ListItem>
-              <ListItem href="/blog-details" title="Blog Details">
+              <ListItem to="/blog-details" title="Blog Details">
                 Detailed view of a single blog post.
               </ListItem>
-              <ListItem href="/service" title="Service">
+              <ListItem to="/service" title="Service">
                 Overview of services offered.
               </ListItem>
-              <ListItem href="/service-details" title="Service Details">
+              <ListItem to="/service-details" title="Service Details">
                 Detailed information about a specific service.
               </ListItem>
-              <ListItem href="/portfolio" title="Portfolio">
+              <ListItem to="/portfolio" title="Portfolio">
                 Showcase of various projects.
               </ListItem>
-              <ListItem href="/portfolio-details" title="Portfolio Details">
+              <ListItem to="/portfolio-details" title="Portfolio Details">
                 Detailed view of a specific project.
               </ListItem>
-              <ListItem href="/not-found" title="404">
+              <ListItem to="/not-found" title="404">
                 Page not found.
               </ListItem>
             </ul>
@@ -129,43 +129,44 @@ export function MainNavigationMenu() {
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-2">
-              <ListItem href="/portfolio" title="Portfolio">
+              <ListItem to="/portfolio" title="Portfolio">
                 Showcase of various projects.
               </ListItem>
-              <ListItem href="/team" title="Team">
+              <Link to={"/team"}></Link>
+              <ListItem to="/team"  title="Team">
                 Meet our team members.
               </ListItem>
-              <ListItem href="/" title="Service">
+              <ListItem to="/" title="Service">
                 Overview of services offered.
               </ListItem>
-              <ListItem href="/video-popup" title="Video Popup">
+              <ListItem to="/video-popup" title="Video Popup">
                 Watch our featured videos.
               </ListItem>
-              <ListItem href="/progress-bar" title="Progressbar">
+              <ListItem to="/progress-bar" title="Progressbar">
                 Visualize progress with bars.
               </ListItem>
-              <ListItem href="/gallery" title="Gallery">
+              <ListItem to="/gallery" title="Gallery">
                 Explore our image gallery.
               </ListItem>
-              <ListItem href="/counters" title="Counters">
+              <ListItem to="/counters" title="Counters">
                 Display numerical data dynamically.
               </ListItem>
-              <ListItem href="/blog" title="Blog List">
+              <ListItem to="/blog" title="Blog List">
                 Overview of all blog posts.
               </ListItem>
-              <ListItem href="/clients-logo" title="Client Logo">
+              <ListItem to="/clients-logo" title="Client Logo">
                 Logos of our esteemed clients.
               </ListItem>
-              <ListItem href="/" title="Contact Form">
+              <ListItem to="/" title="Contact Form">
                 Get in touch with us.
               </ListItem>
-              <ListItem href="/map" title="Google Map">
+              <ListItem to="/map" title="Google Map">
                 Locate us on the map.
               </ListItem>
-              <ListItem href="/faq" title="FAQ">
+              <ListItem to="/faq" title="FAQ">
                 Frequently asked questions.
               </ListItem>
-              <ListItem href="/pricing-table" title="Pricing Table">
+              <ListItem to="/pricing-table" title="Pricing Table">
                 Compare our pricing plans.
               </ListItem>
             </ul>
@@ -184,13 +185,13 @@ export function MainNavigationMenu() {
 }
 
 const ListItem = React.forwardRef<
-  React.ElementRef<"a">,
-  React.ComponentPropsWithoutRef<"a">
+  React.ElementRef<typeof Link>,
+  React.ComponentPropsWithoutRef<typeof Link>
 >(({ className, title, children, ...props }, ref) => {
   return (
     <li>
       <NavigationMenuLink asChild>
-        <a
+        <Link
           ref={ref}
           className={cn(
             "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
@@ -202,7 +203,7 @@ const ListItem = React.forwardRef<
           <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
             {children}
           </p>
-        </a>
+        </Link>
       </NavigationMenuLink>
     </li>
   );
