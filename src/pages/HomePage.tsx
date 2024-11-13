@@ -5,7 +5,7 @@ import HomeService from "../components/home/HomeService";
 import LatestNews from "../components/home/LatestNews";
 import OurWorks from "../components/home/OurWorks";
 import Client from "../components/common/Client";
-import TrustClient from "../components/home/TrustClient";
+import CounterOne from "../components/Counter/CounterOne";
 const HomePage = () => {
   return (
     <>
@@ -13,7 +13,7 @@ const HomePage = () => {
       <AboutAgency />
       <HomeService />
       <OurWorks />
-      <TrustClient />
+      <CounterOne/>
       <Client />
       <LatestNews />
       <Sponser />

@@ -28,7 +28,7 @@ const CounterThree = () => {
 
                   {
                 inView && (
-                    <Counter  start={0}  value={item.value} duration={2.75} />
+                    <Counter   value={item.value} />
                 )
                } 
                 </h1>

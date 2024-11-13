@@ -13,7 +13,7 @@ const CounterOne = () => {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             <div>
               <h1 className="lg:text-7xl text-[2.813rem] Mulish-semibold text-red-600 pb-6">
-                {inView && <Counter start={0} value={199} duration={2.75} />}
+                {inView && <Counter  value={199}  />}
               </h1>
               <p>
                 The standard chunk of Lorem Ipsum used since the 1500s is
@@ -22,7 +22,7 @@ const CounterOne = () => {
             </div>
             <div>
               <h1 className="lg:text-7xl text-[2.813rem] Mulish-semibold text-red-600 pb-6">
-              {inView && <Counter start={0} value={549} duration={2.75} />}
+              {inView && <Counter  value={549}  />}
               </h1>
               <p>
                 The standard chunk of Lorem Ipsum used since the 1500s is
@@ -31,7 +31,7 @@ const CounterOne = () => {
             </div>
             <div>
               <h1 className="lg:text-7xl text-[2.813rem] Mulish-semibold text-red-600 pb-6">
-              {inView && <Counter start={0} value={99} duration={2.75} />}
+              {inView && <Counter  value={99}  />}
               </h1>
               <p>
                 The standard chunk of Lorem Ipsum used since the 1500s is
