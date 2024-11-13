@@ -16,7 +16,7 @@ const BannerSection = () => {
           <section className="pt-40 pb-20 min-h-auto lg:min-h-[1080px]  w-full flex  items-center">
             <div>
               <div>
-                <h1 className="text-[6.25rem] leading-[7rem] uppercase gradient-text Mulish-black  mb-4">
+                <h1 className=" text-[3.5rem] md:text-[6.25rem]  leading-[4.5rem]   md:leading-[7rem] uppercase gradient-text Mulish-black  mb-4">
                   A digital <br />
                   agency.
                 </h1>
