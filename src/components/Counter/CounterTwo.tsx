@@ -20,7 +20,7 @@ const CounterTwo = () => {
               <h1 className="lg:text-7xl text-[2.813rem] Mulish-semibold text-white pb-6">
                {
                 inView && (
-                    <Counter  start={0}  value={199} duration={2.75} />
+                    <Counter    value={199}  />
                 )
                } 
               </h1>
@@ -33,7 +33,7 @@ const CounterTwo = () => {
               <h1 className="lg:text-7xl text-[2.813rem] Mulish-semibold text-white pb-6">
               {
                 inView && (
-                    <Counter  start={0}  value={543} duration={2.75} />
+                    <Counter   value={543}  />
                 )
                } 
               </h1>
@@ -46,7 +46,7 @@ const CounterTwo = () => {
               <h1 className="lg:text-7xl text-[2.813rem] Mulish-semibold text-white pb-6">
               {
                 inView && (
-                    <Counter  start={0}  value={19} duration={2.75} />
+                    <Counter   value={19}  />
                 )
                } 
               </h1>
