@@ -16,7 +16,6 @@ import AboutCounter from "../components/about/AboutCounter";
 import ProgressBarPage from "../pages/ProgressBarPage";
 import CountersPage from "../pages/CountersPage";
 import PricingTablePage from "../pages/PricingTablePage";
-import FaqPage from "../pages/FaqPage";
 import GalleryPage from "../pages/GalleryPage";
 import BlogDetailsPage from "../pages/BlogDetailsPage";
 import ProtfolioDetailsPage from "../pages/ProtfolioDetailsPage";
@@ -110,10 +109,6 @@ const routes: RouteObject[] = [
       {
         path: "pricing-table",
         element: <PricingTablePage />,
-      },
-      {
-        path: "faq",
-        element: <FaqPage />,
       },
       {
         path: "gallery",
