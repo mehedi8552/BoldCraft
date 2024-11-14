@@ -136,7 +136,7 @@ export function MainNavigationMenu() {
               <ListItem to="/team"  title="Team">
                 Meet our team members.
               </ListItem>
-              <ListItem to="/" title="Service">
+              <ListItem to="/service" title="Service">
                 Overview of services offered.
               </ListItem>
               <ListItem to="/video-popup" title="Video Popup">
@@ -157,7 +157,7 @@ export function MainNavigationMenu() {
               <ListItem to="/clients-logo" title="Client Logo">
                 Logos of our esteemed clients.
               </ListItem>
-              <ListItem to="/" title="Contact Form">
+              <ListItem to="/contact" title="Contact Form">
                 Get in touch with us.
               </ListItem>
               <ListItem to="/map" title="Google Map">
