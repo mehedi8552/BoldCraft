@@ -20,8 +20,8 @@ const PortfoliCardSliderAll = () => {
         768: { slidesPerView: 2 },
         1024: { slidesPerView: 3 },
       }}
-      className="mySwiper"  
-      style={{ overflow: "visible" }}
+      className="mySwiper"
+      style={{ overflow: "hidden" }}
     >
       {portfolioItemsOne.map((post) => (
         <SwiperSlide key={post.id} style={{ overflow: "visible" }}>
@@ -33,3 +33,4 @@ const PortfoliCardSliderAll = () => {
 };
 
 export default PortfoliCardSliderAll;
+

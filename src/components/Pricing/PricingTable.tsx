@@ -18,7 +18,7 @@ const PricingTable = () => {
               <p className="text-7xl md:text-[6.25rem] font-regular mb-2">Free</p>
               <p className="mb-4 text-regular text-sm">USD Per Month</p>
               <hr className="my-4" />
-              <ul className="space-y-2 mb-6 text-gray-700 text-regular text-base">
+              <ul className="space-y-2 mb-6 hover:text-white text-gray-700 text-regular text-base">
                 <li>✓ 5 PPC Campaigns</li>
                 <li>✓ Digital Marketing</li>
                 <li>✓ Marketing Agency</li>
@@ -36,7 +36,7 @@ const PricingTable = () => {
               <p className="text-7xl md:text-[6.25rem] font-regular mb-2">29</p>
               <p className="mb-4 text-regular text-sm">USD Per Month</p>
               <hr className="my-4 opacity-50" />
-              <ul className="space-y-2 mb-6 text-gray-700 text-regular text-base">
+              <ul className="space-y-2 mb-6  text-white text-regular text-base">
                 <li>✓ 5 PPC Campaigns</li>
                 <li>✓ Digital Marketing</li>
                 <li>✓ Marketing Agency</li>
@@ -54,7 +54,7 @@ const PricingTable = () => {
               <p className="text-7xl md:text-[6.25rem] font-regular mb-2">29</p>
               <p className="mb-4 text-regular text-sm">USD Per Month</p>
               <hr className="my-4" />
-              <ul className="space-y-2 mb-6 text-gray-700 text-regular text-base">
+              <ul className="space-y-2 mb-6 hover:text-white text-gray-700 text-regular text-base">
                 <li>✓ 5 PPC Campaigns</li>
                 <li>✓ Digital Marketing</li>
                 <li>✓ Marketing Agency</li>

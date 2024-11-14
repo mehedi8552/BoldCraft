@@ -23,7 +23,7 @@ const PortfoliCardSlider = ({
         1024: { slidesPerView: 3 },
       }}
       className="mySwiper"
-      style={{ overflow: "visible" }}
+      style={{ overflow: "hidden" }}
       loop={true}
     >
       {portfolioItems.map((post) => (

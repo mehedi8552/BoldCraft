@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Container from "./Container";
-import logo from "../../assets/icon/logo.png";
+import logo from "../../assets/icon/NewLogo.png";
 import { MainNavigationMenu } from "../NavigationMenu";
 import MobileNavigationMenu from "../MobileNavigationMenu";
 import { ModeToggle } from "../mode-toggle";
@@ -13,7 +13,8 @@ const Header = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <img src={logo} alt="logo" />
+            <img className="w-fit h-12 rounded-full" src={logo} alt="logo" />
+            <h1 className="font-bold text-3xl text-white Mulish-medium">SOLO</h1>
           </Link>
 
           {/* Desktop Navigation */}
