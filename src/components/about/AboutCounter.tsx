@@ -10,7 +10,7 @@ const AboutCounter = () => {
     <div>
       <Container>
         <div className="text-center pb-12">
-          <h1 className="Mulish-medium lg:text-4xl text-[1.625rem] text-gray-900  ">
+          <h1 className="Mulish-medium lg:text-4xl text-[1.625rem] text-gray-900  dark:text-white">
             Our Fun Facts
           </h1>
           <div

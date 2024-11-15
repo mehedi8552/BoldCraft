@@ -61,7 +61,7 @@
       @apply border-border;
     }
     body {
-      @apply bg-background text-[#666666] text-font-primary Mulish-regular;
+      @apply bg-background text-[#666666] dark:text-[#d1d5db] text-font-primary Mulish-regular;
     }
     :root {
       /* Font Sizes with Line Heights */

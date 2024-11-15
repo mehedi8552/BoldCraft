@@ -12,63 +12,63 @@ const Sponser = () => {
       <div className="flex items-center  flex-wrap justify-center gap-8  lg:gap-16 mt-6 py-16 lg:pt-10 lg:pb-28">
         <div>
           <img
-            className=" lg:h-fit h-12  hover:scale-110 transition duration-300"
+            className=" lg:h-fit h-12  hover:scale-110 transition duration-300 dark:invert"
             src={BrandOne}
             alt="ms"
           />
         </div>
         <div>
           <img
-            className=" lg:h-fit h-12  hover:scale-110 transition duration-300"
+            className=" lg:h-fit h-12  hover:scale-110 transition duration-300 dark:invert"
             src={BrandTwo}
             alt="jes"
           />
         </div>
         <div>
           <img
-            className=" lg:h-fit h-12  hover:scale-110 transition duration-300"
+            className=" lg:h-fit h-12  hover:scale-110 transition duration-300 dark:invert"
             src={BrandThree}
             alt="hand crafted"
           />
         </div>
         <div>
           <img
-            className=" lg:h-fit h-12  hover:scale-110 transition duration-300"
+            className=" lg:h-fit h-12  hover:scale-110 transition duration-300 dark:invert"
             src={BrandFour}
             alt="studio"
           />
         </div>
         <div>
           <img
-            className=" lg:h-fit h-12  hover:scale-110 transition duration-300"
+            className=" lg:h-fit h-12  hover:scale-110 transition duration-300 dark:invert"
             src={BrandFive}
             alt="fashion live style"
           />
         </div>
         <div>
           <img
-            className=" lg:h-fit h-12  hover:scale-110 transition duration-300"
+            className=" lg:h-fit h-12  hover:scale-110 transition duration-300 dark:invert"
             src={BrandSix}
             alt="pure"
           />
         </div>
         <div>
           <img
-            className=" lg:h-fit h-12  hover:scale-110 transition duration-300"
+            className=" lg:h-fit h-12  hover:scale-110 transition duration-300 dark:invert"
             src={BrandOne}
             alt="jes"
           />
         </div>
         <div>
           <img
-            className=" lg:h-fit h-12  hover:scale-110 transition duration-300"
+            className=" lg:h-fit h-12  hover:scale-110 transition duration-300 dark:invert"
             src={BrandTwo}
             alt="hand crafted"
           />
         </div>
         <div>
           <img
-            className=" lg:h-fit h-12  hover:scale-110 transition duration-300"
+            className=" lg:h-fit h-12  hover:scale-110 transition duration-300 dark:invert"
             src={BrandThree}
             alt="studio"
           />

@@ -75,14 +75,14 @@ const Client = () => {
   };
 
   return (
-    <div className="bg-gray-50 py-16 lg:py-24">
+    <div className="bg-gray-50 py-16 lg:py-24 dark:bg-black">
       <Container>
         <div className="flex flex-col items-center text-center p-8 space-y-10">
           {/* Testimonial Text */}
-          <p className="testimonial-content lg:text-4xl Mulish-medium font-primary text-gray-800 lg:px-20">
+          <p className="  lg:text-4xl Mulish-medium font-primary text-gray-800 lg:px-20 dark:text-white">
             {avatars.find((avatar) => avatar.isActive)?.title}
           </p>
-          <p className="mt-4 text-gray-500 max-w-2xl lg:pt-16">
+          <p className="mt-4 text-gray-500 max-w-2xl lg:pt-16 dark:text-gray-400">
             {avatars.find((avatar) => avatar.isActive)?.subTitle}
           </p>
           {/* User Avatars */}

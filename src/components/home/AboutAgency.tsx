@@ -8,7 +8,7 @@ const AboutAgency = () => {
     <>
       <Container className="relative pt-24 mb-40 grid grid-cols-1 lg:grid-cols-2 justify-center items-center z-10">
         <div>
-          <h1 className="text-section-title font-bold mt-4">About</h1>
+          <h1 className="text-section-title font-bold mt-4 dark:text-white">About</h1>
           <p className="Mulish-light mt-4">
             Driving brand growth with innovative strategies, focusing on digital
             content, future trends, and crafting solutions to enhance visibility
@@ -16,7 +16,7 @@ const AboutAgency = () => {
           </p>
           <div className="flex flex-col md:flex-row mt-8 gap-4">
             <div>
-              <h3 className="text-section-subtitle Mulish-medium mt-8">
+              <h3 className="text-section-subtitle Mulish-medium mt-8 dark:text-white">
                 Who We Are
               </h3>
               <p className="Mulish-light mt-2">
@@ -25,7 +25,7 @@ const AboutAgency = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-section-subtitle Mulish-medium mt-8">
+              <h3 className="text-section-subtitle Mulish-medium mt-8 dark:text-white">
                 What We Do
               </h3>
               <p className="Mulish-light mt-2">
