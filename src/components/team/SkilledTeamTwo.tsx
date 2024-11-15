@@ -4,6 +4,7 @@ import EmployeeTwo from "../../assets/image/employee-avater-two.jpg";
 import EmployeeThree from "../../assets/image/employee-avater-three.jpg";
 import EmployeeFour from "../../assets/image/employee-avater-four.jpg";
 import Container from "../common/Container";
+import PageHeader from "../common/PageHeader";
 
 const SkilledTeamTwo = () => {
   let SkilledTeamData = [
@@ -33,6 +34,12 @@ const SkilledTeamTwo = () => {
     },
   ];
   return (
+    <>
+          <PageHeader
+        title="Team"
+        path="/team"
+        breadcrumbPath="Team"
+      />
     <section className="lg:py-28 py-14 bg-slate-50">
       <Container>
         <div className="text-center space-y-8 ">
@@ -66,6 +73,7 @@ const SkilledTeamTwo = () => {
         </div>
       </Container>
     </section>
+    </>
   );
 };
 

@@ -1,5 +1,6 @@
 import ImageOne from "../../assets/team-work-vidopopup-page-one.jpg";
 import ImagTwo from "../../assets/team-work-vidopopup-page-two.jpg";
+import PageHeader from "../common/PageHeader";
 import Model from "../common/VideoBtn";
 
 
@@ -8,6 +9,12 @@ const VideoBody = () => {
   const VideoIDTwo = "2jzzh-73Kvo";
 
   return (
+    <>
+          <PageHeader
+        title="Video Popup"
+        path="/video-popup"
+        breadcrumbPath="Video Popup"
+      />
     <div className="lg:py-12 lg:px-28">
       <div className="flex flex-col lg:flex-row py-10 px-8 md:space-x-6 gap-4">
         <div className="w-full lg:w-1/2  relative">
@@ -32,6 +39,7 @@ const VideoBody = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

@@ -163,9 +163,6 @@ export function MainNavigationMenu() {
               <ListItem to="/map" title="Google Map">
                 Locate us on the map.
               </ListItem>
-              <ListItem to="/faq" title="FAQ">
-                Frequently asked questions.
-              </ListItem>
               <ListItem to="/pricing-table" title="Pricing Table">
                 Compare our pricing plans.
               </ListItem>

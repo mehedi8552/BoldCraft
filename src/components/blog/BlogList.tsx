@@ -3,10 +3,16 @@ import Container from "../common/Container";
 import { ChevronRight } from "lucide-react";
 import { blogPosts } from "../../data/blogList";
 import BlogCard from "./BlogCard";
+import PageHeader from "../common/PageHeader";
 
 const BlogList = () => {
   return (
     <>
+          <PageHeader
+        title="Blog"
+        path="/blog"
+        breadcrumbPath="Blog"
+      />
       {/* Blog Grid */}
       <Container className=" pb-8 lg:pb-16  pt-8 lg:pt-16 ">
         <div className="grid gap-6 py-16 md:grid-cols-2 lg:grid-cols-3 ">

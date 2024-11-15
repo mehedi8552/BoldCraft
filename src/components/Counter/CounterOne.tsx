@@ -1,6 +1,7 @@
 import Container from "../common/Container";
 import Counter from "../common/Counter";
 import { useInView } from "react-intersection-observer";
+import PageHeader from "../common/PageHeader";
 const CounterOne = () => {
   const { ref, inView } = useInView({
     /* Optional options */
@@ -8,6 +9,11 @@ const CounterOne = () => {
   });
   return (
     <div>
+            <PageHeader
+        title="Counter"
+        path="/counters"
+        breadcrumbPath="Counter"
+      />
       <Container>
         <div ref={ref} className="text-center py-16 lg:py-32 lg:px-4">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">

@@ -1,4 +1,3 @@
-import AboutHead from "../components/about/AboutHead";
 import AboutMain from "../components/about/AboutMain";
 import AboutCounter from "../components/about/AboutCounter";
 import AboutFindWork from "../components/about/AboutFindWork";
@@ -9,7 +8,6 @@ import Sponser from "../components/clientLogo/Sponser";
 const AboutPage = () => {
   return (
     <>
-      <AboutHead />
       <AboutMain />
       <AboutCounter />
       <AboutFindWork />
