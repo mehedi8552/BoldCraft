@@ -40,7 +40,7 @@
     --card-foreground: 22 5% 100%;
     --popover: 22 17% 5%;
     --popover-foreground: 22 5% 100%;
-    --primary: 22 100% 50%;
+    --primary: 0, 84%, 60%;
     --primary-foreground: 0 0% 100%;
     --secondary: 22 17% 20%;
     --secondary-foreground: 0 0% 100%;

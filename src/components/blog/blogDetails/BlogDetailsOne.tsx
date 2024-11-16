@@ -8,7 +8,7 @@ const BlogDetails = () => {
     <Container>
       <div className="container mx-auto px-4 pt-14 md:pt-28">
         {/* Top paragraph */}
-        <p className="text-gray-700 mb-8 leading-relaxed">
+        <p className=" mb-8 leading-relaxed">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
           humour, or randomised words which don't look even slightly believable.
@@ -31,7 +31,7 @@ const BlogDetails = () => {
         </div>
 
         {/* Bottom paragraph */}
-        <p className="text-gray-700 mb-8 leading-relaxed">
+        <p className=" mb-8 leading-relaxed">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
           humour, or randomised words which don't look even slightly believable.
@@ -42,14 +42,14 @@ const BlogDetails = () => {
         </p>
 
         {/* Highlighted quote */}
-        <blockquote className="text-center text-2xl font-bold text-gray-900 italic my-6 lg:my-12 mx-auto  lg:mx-44">
+        <blockquote className="text-center text-2xl font-bold text-gray-900 italic my-6 lg:my-12 mx-auto  lg:mx-44 dark:text-white">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
           commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
           et magnis dis parturient montes.
         </blockquote>
 
         {/* Additional bottom paragraph */}
-        <p className="text-gray-700 leading-relaxed">
+        <p className=" leading-relaxed">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
           humour, or randomised words which don't look even slightly believable.

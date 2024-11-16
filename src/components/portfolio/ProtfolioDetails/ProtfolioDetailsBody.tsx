@@ -11,17 +11,17 @@ const ProtfolioDetailsBody = () => {
       <Container>
         <div className="container mx-auto lg:px-48 py-8 md:py-24 text-gray-700">
           {/* Title */}
-          <h1 className="text-3xl md:text-[3.375rem] Mulish-bold  text-gray-900 mb-2 md:pb-6">Trydo</h1>
+          <h1 className="text-3xl md:text-[3.375rem] Mulish-bold  text-gray-900 mb-2 md:pb-6 dark:text-white">Trydo</h1>
           <hr className="border-t-2 border-gray-300 w-full mb-6 lg:md:mb-8" />
 
           {/* Subtitle */}
-          <p className="text-2xl Mulish-regular text-black mb-6">
+          <p className="text-2xl Mulish-regular text-black dark:text-white mb-6">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form.
           </p>
 
           {/* Description */}
-          <p className="text-gray-600 mb-8">
+          <p className="dark:text-gray-300 mb-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
             ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
@@ -32,15 +32,15 @@ const ProtfolioDetailsBody = () => {
           <div className="flex flex-col md:flex-row md:space-x-12 mb-8">
             <div>
               <p className="text-gray-500 Mulish-medium text-base">Branch</p>
-              <p className="Mulish-medium text-[1.375rem] text-gray-900">Ability</p>
+              <p className="Mulish-medium text-[1.375rem] text-gray-900 dark:text-white">Ability</p>
             </div>
             <div>
               <p className="text-gray-500 Mulish-medium text-base">Project Types</p>
-              <p className="Mulish-medium text-[1.375rem] text-gray-900">Website</p>
+              <p className="Mulish-medium text-[1.375rem] text-gray-900 dark:text-white">Website</p>
             </div>
             <div>
               <p className="text-gray-500 Mulish-medium text-base">Program</p>
-              <p className="Mulish-medium text-[1.375rem] text-gray-900">View Project</p>
+              <p className="Mulish-medium text-[1.375rem] text-gray-900 dark:text-white">View Project</p>
             </div>
           </div>
 

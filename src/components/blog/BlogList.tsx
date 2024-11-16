@@ -26,31 +26,31 @@ const BlogList = () => {
           <div className="flex items-center justify-center space-x-2">
             <Link
               to="/"
-              className="bg-primary text-white border border-primary px-4 py-2 rounded-md flex items-center justify-center"
+              className="bg-red-500 text-white border border-red-500 hover:bg-salate-100  px-4 py-2 rounded-md flex items-center justify-center"
             >
               1
             </Link>
             <Link
               to="/"
-              className="border border-primary text-primary hover:bg-primary hover:text-white transition-colors px-4 py-2 rounded-md flex items-center justify-center"
+              className="border border-red-500 text-red-500 hover:bg-red-500 hover:text-white transition-colors px-4 py-2 rounded-md flex items-center justify-center"
             >
               2
             </Link>
             <Link
               to="/"
-              className="border border-primary text-primary hover:bg-primary hover:text-white transition-colors px-4 py-2 rounded-md flex items-center justify-center"
+              className="border border-red-500 text-red-500 hover:bg-red-500 hover:text-white transition-colors px-4 py-2 rounded-md flex items-center justify-center"
             >
               3
             </Link>
             <Link
               to="/"
-              className="border border-primary text-primary hover:bg-primary hover:text-white transition-colors px-4 py-2 rounded-md flex items-center justify-center"
+              className="border border-red-500 text-red-500 hover:bg-red-500 hover:text-white transition-colors px-4 py-2 rounded-md flex items-center justify-center"
             >
               4
             </Link>
             <Link
               to="/"
-              className="border border-primary text-primary hover:bg-primary hover:text-white transition-colors px-4 py-2 rounded-md flex items-center justify-center"
+              className="border border-red-500 text-red-500 hover:bg-red-500 hover:text-white transition-colors px-4 py-2 rounded-md flex items-center justify-center"
             >
               <ChevronRight className="w-[15px] h-[25px]" />
             </Link>

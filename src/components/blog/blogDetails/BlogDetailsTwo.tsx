@@ -5,7 +5,7 @@ const BlogDetailsTwo = () => {
     <Container>
       <div className="container mx-auto px-4 py-8 md:py-16 flex flex-col md:flex-row items-start gap-8 pb-14 md:pb-28">
         {/* Text Section */}
-        <div className="w-full md:w-1/2 text-gray-700 space-y-4">
+        <div className="w-full md:w-1/2  space-y-4">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
@@ -13,7 +13,7 @@ const BlogDetailsTwo = () => {
           </p>
 
           {/* Ordered & Unordered Lists */}
-          <h3 className="text-2xl py-6   Mulish-medium">
+          <h3 className="text-2xl py-6   Mulish-medium dark:text-white">
             Ordered & Unordered Lists.
           </h3>
           <ul className="list-disc list-inside space-y-2">
@@ -24,7 +24,7 @@ const BlogDetailsTwo = () => {
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing</li>
           </ul>
 
-          <h3 className="text-2xl py-6   Mulish-medium">
+          <h3 className="text-2xl py-6   Mulish-medium dark:text-white">
             Ordered & Unordered Lists.
           </h3>
           <ul className="list-disc list-inside space-y-2">

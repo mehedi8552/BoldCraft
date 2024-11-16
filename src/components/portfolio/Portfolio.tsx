@@ -20,13 +20,13 @@ const Portfolio = () => {
       </Container>
 
       {/* Portfolio Grid */}
-      <div className="bg-[#f8f9fc]">
+      <div className="bg-[#f8f9fc] dark:bg-[#1F1F25]">
         <Container>
           <div className="text-center pt-[60px] md:pt-[80px] lg:pt-[120px]">
-            <h1 className="text-section-title text-black poppins-semibold mb-4">
+            <h1 className=" text-black Mulish-medium text-4xl md:text-6xl mb-4 dark:text-white">
               All Works
             </h1>
-            <p className=" poppins-light">
+            <p className=" ">
               There are many variations of passages of Lorem Ipsum available,
               but the <br /> majority have suffered alteration.
             </p>
@@ -46,10 +46,10 @@ const Portfolio = () => {
       <div className="py-[60px] md:py-[80px] lg:py-[100px] !pb-[150px]">
         <Container>
           <div className="text-center pb-[60px] md:pb-[80px] lg:pb-[100px]">
-            <h1 className="text-section-title text-black poppins-semibold mb-4">
+            <h1 className=" text-black Mulish-medium text-4xl md:text-6xl mb-4 dark:text-white">
               All Works
             </h1>
-            <p className=" poppins-light">
+            <p className="">
               There are many variations of passages of Lorem Ipsum available,
               but the <br /> majority have suffered alteration.
             </p>

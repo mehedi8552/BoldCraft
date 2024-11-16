@@ -42,7 +42,7 @@ const BlogCard = ({ post }: BlogCardProps) => {
           {/* Read More Button */}
           <Link
             to={`/blog/${post.id}`}
-            className="inline-block rounded-lg border-2 border-primary px-6 py-2 text-sm uppercase tracking-wider text-white transition-transform duration-500 transform -translate-x-full opacity-0 hover:transition-colors   hover:bg-primary group-hover:translate-x-0 group-hover:opacity-100"
+            className="inline-block rounded-lg border-2 border-red-500 px-6 py-2 text-sm uppercase tracking-wider text-white transition-transform duration-500 transform -translate-x-full opacity-0 hover:transition-colors   hover:bg-red-500 group-hover:translate-x-0 group-hover:opacity-100"
           >
             {post.buttonText}
           </Link>

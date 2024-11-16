@@ -20,7 +20,7 @@ const PortfolioCard = ({ post }: PortfolioCardProps) => {
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/50 to-black/80" />
 
-        <div className="absolute inset-0 bg-gradient-to-t from-transparent via-orange-500/50 to-orange-300 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+        <div className="absolute inset-0 bg-gradient-to-t from-transparent via-pink-500/50 to-red-500 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
 
         {/* Content */}
         <div className="absolute bottom-0 left-0 right-0 p-10">
@@ -37,7 +37,7 @@ const PortfolioCard = ({ post }: PortfolioCardProps) => {
           {/* Read More Button */}
           <Link
             to={`/portfolio-details`}
-            className="inline-block rounded-lg border-2 mt-4 border-[#c6c9d8] px-6 py-2 text-sm uppercase tracking-wider text-white transition transform, hover:border-primary background-color duration-300 hover:-translate-y-2 hover:bg-primary"
+            className="inline-block rounded-lg border-2 mt-4 border-[#c6c9d8] px-6 py-2 text-sm uppercase tracking-wider text-white transition transform, hover:border-red-500 background-color duration-300 hover:-translate-y-2 hover:bg-red-500 hover:text-white"
           >
             {post.buttonText}
           </Link>
