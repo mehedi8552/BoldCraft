@@ -5,13 +5,13 @@ import Container from "./Container";
 
 const SkilledTeam = () => {
   return (
-    <div className="py-16 lg:py-28 bg-white">
+    <div className="py-16 lg:py-28 bg-white dark:bg-[#1F2228]">
       <Container>
         <div className="text-center space-y-6 ">
-          <h1 className="Mulish-bold text-4xl lg:text-6xl lg:text-section-title text-black">
+          <h1 className="Mulish-bold text-4xl lg:text-6xl lg:text-section-title text-black dark:text-white">
           Our Skilled Team
           </h1>
-          <p className="Mulish-regular text-fontPrimary text-gray-600 lg:px-64 ">
+          <p className="Mulish-regular text-fontPrimary  lg:px-64 ">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration.
           </p>

@@ -2,7 +2,7 @@ import ImageAbout from "../../assets/image/bg-image-about-find-work.jpg";
 
 const AboutFindWork = () => {
   return (
-    <div className=" items-end lg:items-start  lg:py-12  lg:relative">
+    <div className=" items-end lg:items-start  lg:py-12  lg:relative dark:bg-[#1F1F25]">
       <div className="lg:absolute  lg:right-32 lg:top-56">
         <div className="  lg:w-[45.625rem] lg:h-[25rem] w-full  bg-gray-900 text-white rounded-lg p-8 mb-8 lg:mb-0 lg:mr-8 shadow-lg">
           <div className="lg:py-20 lg:px-10">
