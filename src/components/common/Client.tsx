@@ -75,7 +75,7 @@ const Client = () => {
   };
 
   return (
-    <div className="bg-gray-50 py-16 lg:py-24 dark:bg-black">
+    <div className="bg-gray-50 py-16 lg:py-24 dark:bg-[#1F1F25]">
       <Container>
         <div className="flex flex-col items-center text-center p-8 space-y-10">
           {/* Testimonial Text */}

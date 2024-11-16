@@ -21,11 +21,11 @@ const serviceDetailsOne = () => {
             the first true generator on the Internet.
           </p>
 
-          <h2 className="Mulish-medium lg:pt-8  text-4xl text-gray-900 mb-4">
+          <h2 className="Mulish-medium lg:pt-8  text-4xl text-gray-900 mb-4 dark:text-white">
             Our Working Process
           </h2>
 
-          <ul className="list-disc text-fontPrimary list-inside text-gray-700 space-y-3 lg:pt-2">
+          <ul className="list-disc text-fontPrimary list-inside  space-y-3 lg:pt-2">
             <li>Yet this above sewed flirted opened ouch</li>
             <li>Goldfinch realistic sporadic ingenuous</li>
             <li>Abominable this abidin far successfully then like piquan</li>
@@ -73,11 +73,11 @@ const serviceDetailsOne = () => {
             the first true generator on the Internet.
           </p>
 
-          <h2 className="Mulish-medium lg:pt-8  text-4xl text-gray-900 mb-4">
+          <h2 className="Mulish-medium lg:pt-8  text-4xl text-gray-900 mb-4 dark:text-white">
             Process of metal
           </h2>
 
-          <ul className="list-disc text-fontPrimary list-inside text-gray-700 space-y-3 lg:pt-2">
+          <ul className="list-disc text-fontPrimary list-inside  space-y-3 lg:pt-2">
             <li>Yet this above sewed flirted opened ouch</li>
             <li>Goldfinch realistic sporadic ingenuous</li>
             <li>Abominable this abidin far successfully then like piquan</li>

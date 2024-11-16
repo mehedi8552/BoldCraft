@@ -7,10 +7,10 @@ const serviceTwo = () => {
     <Container>
       <div className=" ">
         <div className=" space-y-4 lg:space-y-8  py-14 px-4 text-center">
-          <h1 className="Mulish-bold text-4xl lg:text-section-title  text-primaryColors ">
+          <h1 className="Mulish-bold text-4xl lg:text-section-title  text-primaryColors dark:text-white">
           Strategy
           </h1>
-          <p className="Mulish-regular text-fontPrimary text-gray-600 lg:px-64 ">
+          <p className="Mulish-regular text-fontPrimary  lg:px-64 ">
             There are many variations of passages of Lorem Ipsum available,
             but the majority have suffered alteration.
           </p>
@@ -26,10 +26,10 @@ const serviceTwo = () => {
                 <span className="text-6xl flex justify-center  group-hover:text-white text-red-500 ">
                   {data.icons}
                 </span>
-                <h1 className="Mulish-medium  text-fontPrimary group-hover:text-white ">
+                <h1 className="Mulish-medium  text-fontPrimary group-hover:text-white dark:text-white">
                   {data.name}
                 </h1>
-                <p className="Mulish-regular text-fontPrimary text-gray-600 group-hover:text-white ">
+                <p className="Mulish-regular text-fontPrimary  group-hover:text-white ">
                   {data.description}
                 </p>
               </motion.div>
